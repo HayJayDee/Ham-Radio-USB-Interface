@@ -9532,17 +9532,17 @@ Source: http://catalog.osram-os.com .. LA_LR_LS_LY_P47F_Pb_free.pdf</description
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100u"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100u"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="904"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="285"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="1k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="220"/>
 <part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3440" device="" package3d_urn="urn:adsk.eagle:package:28729/1" value="SC 945"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="25"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="125"/>
+<part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3440" device="" package3d_urn="urn:adsk.eagle:package:28729/1" value="PN2222A"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="10"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4007"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100u"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="2k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10S" package3d_urn="urn:adsk.eagle:package:23785/1"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10S" package3d_urn="urn:adsk.eagle:package:23785/1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -9597,11 +9597,11 @@ Source: http://catalog.osram-os.com .. LA_LR_LS_LY_P47F_Pb_free.pdf</description
 </instance>
 <instance part="R1" gate="G$1" x="-10.16" y="73.66" smashed="yes" rot="R90" grouprefs="VOX">
 <attribute name="NAME" x="-11.6586" y="69.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-6.858" y="69.85" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-6.35" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R2" gate="G$1" x="-10.16" y="63.5" smashed="yes" rot="R90" grouprefs="VOX">
 <attribute name="NAME" x="-11.6586" y="59.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-6.858" y="59.69" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-3.81" y="64.262" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X_4" gate="G$1" x="-10.16" y="48.26" smashed="yes" grouprefs="VOX"/>
 <instance part="T1" gate="G$1" x="-2.54" y="68.58" smashed="yes" grouprefs="VOX">
@@ -9610,11 +9610,11 @@ Source: http://catalog.osram-os.com .. LA_LR_LS_LY_P47F_Pb_free.pdf</description
 </instance>
 <instance part="R3" gate="G$1" x="0" y="58.42" smashed="yes" rot="R90" grouprefs="VOX">
 <attribute name="NAME" x="-1.4986" y="54.61" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="3.302" y="54.61" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="3.81" y="56.642" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R4" gate="G$1" x="0" y="78.74" smashed="yes" rot="R90" grouprefs="VOX">
 <attribute name="NAME" x="-1.4986" y="74.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="3.302" y="74.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-1.27" y="82.042" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+2" gate="1" x="0" y="91.44" smashed="yes" grouprefs="VOX">
 <attribute name="VALUE" x="-2.54" y="86.36" size="1.778" layer="96" rot="R90"/>
@@ -9625,12 +9625,12 @@ Source: http://catalog.osram-os.com .. LA_LR_LS_LY_P47F_Pb_free.pdf</description
 </instance>
 <instance part="C4" gate="G$1" x="22.86" y="68.58" smashed="yes" rot="R180" grouprefs="VOX">
 <attribute name="NAME" x="21.336" y="68.199" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="21.336" y="73.279" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="21.336" y="65.659" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X_5" gate="G$1" x="22.86" y="60.96" smashed="yes" grouprefs="VOX"/>
 <instance part="R5" gate="G$1" x="30.48" y="68.58" smashed="yes" rot="R90" grouprefs="VOX">
 <attribute name="NAME" x="28.9814" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="33.782" y="64.77" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="34.29" y="66.802" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R6" gate="1" x="40.64" y="2.54" smashed="yes" rot="R90" grouprefs="CONTROLL_POTENTIOMETERS">
 <attribute name="NAME" x="45.72" y="5.08" size="1.778" layer="95" rot="R90"/>
